@@ -1,0 +1,176 @@
+.homepage{
+    --background: #f8efd7;
+  }
+  ion-content {
+    width: calc(100% + 15px);
+  }
+  ion-content::part(scroll) {
+    padding-right: 15px;
+  }
+  .logo{
+    width:80px;
+    height: 80px;
+    margin-left:100px;
+    margin-top:10px;
+  }
+  
+  .mochi{
+    width: 95px;
+    height: 95px;
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  
+  p{
+    font-size:17px;
+    margin-left:20px;
+    padding-top:10px;
+    font-weight: 400;
+  }
+  
+  .customize{
+    height: 80px;
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top:2px;
+    --background: #8c0001;
+    text-align: left !important;
+    font-weight: 600;
+    text-transform:none;
+    font-family: Pop;
+    
+  }
+  .p1{
+    position: absolute;
+    left: -20px;
+    font-family: Pop;
+  }
+  .p{
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    left: -20px;
+    font-family: Pop;
+  }
+  .buttonsbtm{
+    margin-top:90px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+  }
+  
+  .exit{
+    margin-left:10px;
+    margin-right:20px;
+    width:100px;
+    --background: #f6e2aa;
+    color:#00264d;
+    font-weight: 400;
+    font-family: Pop;
+    text-transform:none;
+  }
+  .fixedAcc{
+    padding: 0px;
+  }
+  .nutricheck{
+    --background: #2f5612;
+    font-weight: 400;
+    font-family: Pop;
+    text-transform:none;
+  
+  }
+  
+  .fixedLabel{
+    font-size: large;
+    color:#ffff;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-family: Pop;
+  }
+  
+  .accGroup{
+   width:90%;
+   box-shadow: 5px gray;
+   border-radius: 15px;
+   color:#ffff;
+   display:block !important;
+  font-weight: 600;
+   text-transform:none;
+   line-height: 12px;
+   
+  }
+  
+  ion-accordion{
+    background-color: #ed582e;
+    
+  }
+  
+  .showFixed{
+    font-size: 9.8px;
+    font-family: Pop;
+  }
+  
+  .contentUsage{
+    font-size: 12px;
+  }
+  .satFat{
+    margin-left:20px;
+    font-size: 12px;
+  }
+  
+  .sugarCarb{
+    margin-left:20px;
+    font-size: 12px;
+  }
+  
+  .sodium{
+    margin-left:20px;
+    font-size: 12px;
+  }
+  
+  
+  .pGreen1{
+  color: black;
+  float: right;
+  margin-right: 27px;
+  font-size: 12px;
+  }
+  
+  .pGreen2{
+    color: black; 
+    float: right;
+    margin-right: 20px;
+    font-size: 12px;
+  }
+  
+  .pGreen3{
+    color: black;
+    float: right;
+    margin-right: 30px;
+    font-size: 12px;
+  }
+  
+  .pBlack1{
+    color: rgba(164, 235, 84, 0.966);
+    margin-left:40px;
+    font-size: 12px;
+  }
+  
+  .pBlack2{
+    color: rgba(164, 235, 84, 0.966);
+    margin-left:40px;
+    font-size: 12px;
+  }
+  
+  .pBlack3{
+    color: rgba(164, 235, 84, 0.966);
+    margin-left:40px;
+    font-size: 12px;
+  }
+  .selectNutrition{
+    font-family: Pop;
+    font-size: 15px;
+    font-weight: bolder;
+  }

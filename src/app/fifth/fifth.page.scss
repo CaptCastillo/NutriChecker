@@ -1,0 +1,49 @@
+ion-app{
+    --ion-background-color:#f8efd7;
+    }
+ion-label{
+    --ion-font-family:Pop;
+    
+    --color:#00264d !important;
+    font-weight:900 !important;
+    padding-bottom: 0.5em;
+
+}
+ion-item{
+    top: 22%;
+}
+.logo{
+    height:27%;
+    width: 57%;
+    position: absolute;
+    top: 10px;
+    left: 2.2em;
+}
+.btn1{
+    text-transform:none;
+    --background:#2b5b05;
+    --border-radius: 10px;
+    width : 170px;
+    height: 35px;
+    font-family: Pop;
+    position: absolute;
+    bottom: 120px;
+    right: 20px;
+}
+.icon{
+    --background:#f8efd7;
+    color: #8c0001;
+    --border:0;
+    --background: none;
+    --box-shadow: none;
+    --border-radius: 0px;
+    position: absolute;
+    font-size: larger;
+    bottom: 111px;
+}
+.inp{
+    width:80% ;
+    height: 40%;
+    position: relative;
+    left: 1.1em;
+}

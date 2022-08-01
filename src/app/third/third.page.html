@@ -1,0 +1,26 @@
+<ion-app>
+<ion-content>
+
+  <div>
+    <img class="logo" src = "./assets/logoW.png">
+  </div>
+
+  <ion-item lines="none">
+    <ion-label class="text-wrap" position="stacked">Saturated Fat (g)<ion-text color="danger">*</ion-text></ion-label>
+    <input id="Sfat" class="inp" type="number" required/>
+  </ion-item>
+  <ion-item lines="none" >
+    <ion-label primary position="stacked" class="text-wrap">Sugar / Total Carbohydrates (g)<ion-text color="danger">*</ion-text></ion-label>
+    <input  id="sugar" class="inp" type="number" required/>
+  </ion-item>
+  <ion-item lines="none">
+    <ion-label position="stacked">Sodium (mg)<ion-text color="danger">*</ion-text></ion-label>
+    <input id="sodium" class="inp" type="number" required/>
+  </ion-item>
+  <ion-button expand="fill" class="btn1" (click)="Greenpage()">Generate Result</ion-button>
+  <ion-button class="icon" expand="full" (click)="back()">
+    <ion-icon slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+  </ion-button>
+</ion-content>
+</ion-app>
+
