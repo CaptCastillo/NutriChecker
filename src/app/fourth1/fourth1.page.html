@@ -1,0 +1,29 @@
+<ion-app>
+  <ion-content class="customizeHome">
+    <div class="container">
+      <img class="logo" src="./assets/NC BLACK.png">
+      <img class="mochi" src ="./assets/mochii.png">
+      <p class="selectNutrition">Select Nutrition Content Usage:</p>
+  
+      <div class="forms">
+        <br>
+          <p class="pCustom">CUSTOMIZE</p>
+          <p class="pInput">Input the Maximum Nutrition Usage:</p>
+          <label>Saturated Fat (g)</label><Br><Br>
+          <ion-input id="sFat1" [(ngModel)]="var1" type="number" inputmode="numeric" ></ion-input><Br>
+      
+          <label>Sugar or Carbohydrates (g)</label><Br><Br>
+          <ion-input id="sugar1" [(ngModel)]="var2" type="number" inputmode="numeric"></ion-input><Br>
+      
+          <label>Sodium (mg)</label><Br><Br>
+          <ion-input id="sodium1" [(ngModel)]="var3" type="number" inputmode="numeric"></ion-input> <Br><Br><Br>
+      </div>
+  
+      <div class="buttonsbtm"> 
+        <ion-button class="exit" routerLink="/fourth">Back</ion-button>
+        <ion-button class="nutricheck" (click)="custom()">NutriCheck</ion-button>
+      </div>
+    </div>
+  </ion-content>
+  </ion-app>
+  

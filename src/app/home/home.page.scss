@@ -1,0 +1,49 @@
+ion-app{
+  background-color:#f8efd7;
+  }
+  .logo{
+    position: relative;
+    top: 140px;
+  }
+
+  .btn1.md{
+      position: absolute;
+      margin-top: 225px;
+      margin-left: 25%;
+  }
+  .btn1.ios{
+    position: absolute;
+    margin-top: 223px;
+    margin-left: 25%;
+  }
+  :host{
+  ion-button{
+  --border-radius: 10px;
+  width : 120px;
+  height: 40px;
+  --background:#2b5b05;
+  font-family: Pop;
+  }
+  }
+  .pic1{
+    height:20%;
+    width: 30%;
+    position:absolute;
+    margin-top: 20px;
+    margin-left:0px;
+    }
+  .pic2{
+      height:30%;
+      width: 38%;
+      position:absolute;
+      bottom:8.89em;
+      right: -5px;
+      }
+
+  .pic3{
+  height:35%;
+  width: 40%;
+  position: absolute;
+  bottom: 1em;
+  left:0px;
+}

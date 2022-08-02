@@ -1,0 +1,93 @@
+.customizeHome{
+    --background: #f8efd7;
+  }
+  ion-content {
+    width: calc(100% + 15px);
+  }
+  ion-content::part(scroll) {
+    padding-right: 15px;
+  }
+  .logo{
+    width:80px;
+    height: 80px;
+    margin-left:100px;
+    margin-top:10px;
+  }
+  
+  .mochi{
+    width: 80px;
+    height: 80px;
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 33px;
+  }
+  
+.selectNutrition{
+    margin-left:20px;
+    font-weight: 900;
+    font-family: PopB;
+    font-size: 14px;
+}
+ .pCustom{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 500;
+    font-family: Pop;
+    font-size: 25px;
+ }
+ 
+ .pInput{
+    margin-top: -30px;
+    margin-left: 10px;
+    font-size:small;
+    font-family: Ave;
+ }
+  
+  .forms{
+    border: 2px solid black;
+    background: #921d1d;
+    color:white;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    font-size: 13px;
+  }
+
+label{
+  margin-left: 20px;
+}
+
+
+ion-input{
+  margin-left: 60px;
+  margin-top: -10px;
+  width: 150px;
+  --background: #fff;
+  color:black;
+  height: 27px;
+
+}
+
+  .buttonsbtm{
+    margin-top:80px;
+    
+  }
+  
+  .exit{
+    margin-left:10px;
+    margin-right:20px;
+    width:100px;
+    --background: #f6e2aa;
+    color:#00264d;
+    font-weight: 400;
+    font-family: Pop;
+    text-transform:none ;
+  }
+  
+  .nutricheck{
+    --background: #2f5612;
+    font-weight: 400;
+    font-family: Pop;
+    text-transform:none ;
+  }

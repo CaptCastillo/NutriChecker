@@ -1,0 +1,68 @@
+.redPage{
+    --background: #4f1d0e;
+}
+
+
+.logo{
+    width:55%;
+    height: 55%;
+    margin-left:40px;
+    margin-top:2px;
+}
+
+.grapes{
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    margin-top: 40px;
+}
+
+.brocs{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: -20px; 
+   
+}
+
+.buttonsbtm{
+    margin-top:20px;
+    padding-bottom: 10px;
+  }
+  
+  .exit{
+    margin-left:15px;
+    margin-right:18px;
+    width:100px;
+    --background: #f6e2aa;
+    color:#00264d;
+    font-weight: 400;
+    text-transform:none ;
+    font-family: PopB;
+    height: 33px;
+  }
+  
+  .nutricheck{
+    --background: #f6e2aa;
+    font-weight: 400;
+    color:#00264d;
+    text-transform:none ;
+    font-family: PopB;
+    height: 33px;
+  }
+
+  h1{
+    color:white;
+    font-weight: 900;
+    font-size: 39px;
+    margin-left: 20px;
+    margin-top: -7%;
+    font-family: pop;
+    
+  }
+  p{
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+  }

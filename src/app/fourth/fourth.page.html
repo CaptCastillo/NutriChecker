@@ -1,0 +1,40 @@
+<ion-app>
+  <ion-content class="homepage">
+    <div id="container">
+       
+          <img class="logo" src="./assets/NC BLACK.png">
+          <img class="mochi" src ="./assets/mochii.png">
+        
+      <p class="selectNutrition">Select Nutrition Content Usage:</p>
+  
+      <ion-accordion-group class="accGroup" expand="inset">
+        <ion-accordion class="fixedAcc">
+          <ion-item slot="header" color="#ed582e">
+            <ion-label class="fixedLabel">FIXED <br>
+             <div class="showFixed"> Show Fixed Nutrient Content Usage</div>
+            </ion-label>
+  
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            <div class="contentUsage">Content Usage:</div>
+            <div class="satFat">Saturated Fat</div>
+            <div class="pGreen1"> >=3 grams </div>  <div class="pBlack1"> <=3 grams</div> <br>
+            <div class="sugarCarb">Sugar or Carbohydrates</div> 
+             <div class="pGreen2">>=10 grams</div> <div class="pBlack2"> <=10 grams </div> <br>
+            <div class="sodium"> Sodium </div>
+             <div class="pGreen3"> >=120 mg</div> <div class="pBlack3"> <=120mg </div><br>
+          </div>
+        </ion-accordion>
+      </ion-accordion-group><br>
+      <ion-button class="customize" routerLink="/fourth1"><p class="p1">CUSTOMIZE<br><br><br></p>
+            <p class="p">Tap to Input the Maximum Usage</p>
+      </ion-button><br>
+  
+      <div class="buttonsbtm"> 
+        <ion-button class="exit" routerLink="/second">Back</ion-button>
+        <ion-button class="nutricheck" routerLink="/third">NutriCheck</ion-button>
+      </div>
+    </div>
+  </ion-content>
+  </ion-app>
+  

@@ -1,0 +1,84 @@
+.app{
+    --ion-background-color:#f8efd7 !important;
+}
+ion-content {
+    width: calc(100% + 15px);
+  }
+  ion-content::part(scroll) {
+    padding-right: 15px;
+  }
+.moch{
+    height:40%;
+    width: 40%;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 205px;
+}
+.logo{
+    height:66%;
+    width: 68%;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.welcome{
+    font-family: popEB;
+    font-size:22px;
+    font-weight:900;
+    color:#00264d;
+    position: absolute;
+    top: 55px;
+    left: 10px;
+}
+.desc{
+    font-family: Ave;
+    font-size: 13px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-top: 235px;
+}
+
+.instruction{
+    font-size: 15px;
+    font-family: Ave1;
+    color: #00264d;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.instruc{
+    font-family: Ave;
+    font-size: 13px;
+    margin-right: 5px;
+    text-align:justify;
+    margin-left: 10px;
+    margin-right: 0px;
+    
+}
+.btn1{
+    margin-left: 28%;
+    margin-top: 50px;
+  }
+  :host{
+    ion-button{
+        --border-radius: 10px;
+        font-size: 13px;
+        width : 127px;
+        height: 35px;
+        --background:#2b5b05;
+        font-family: Pop;
+    }
+  }
+.cart{
+    height:20%;
+    width: 30%;
+    position: absolute;
+    top: 750px;
+    margin-left: -23px;
+
+    
+}
+.ion-padding{
+    text-align: center;
+}
